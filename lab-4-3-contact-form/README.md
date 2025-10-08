@@ -106,25 +106,24 @@ GET	/api/docs	เอกสาร API ทั้งหมด
 ✅ script.js	เพิ่ม realtime validation, feedback submit, API test
 ✅ server.js	เชื่อมต่อ route และสร้าง /api/status
 
-
 ---
 
 
 <h3>📸 ภาพรวมการทำงาน</h3>
 
-    <img src="./public/images/1.png" width="300">
-  <img src="./public/images/2.png" width="300">
+<p align="center">
+  <img src="./images/100.png" width="300">
+  <img src="./images/200.png" width="300">
+</p>
 
+---
+
+🎥 <b>วิดีโอสาธิตการทำงาน</b>
+
+🎬 [คลิกที่นี่เพื่อดูวิดีโอสาธิตการทำงานบน YouTube](https://youtu.be/ylPN1qb6dwM)
 
 ---
 
-🎥 วิดีโอสาธิตการทำงาน
-
-🎥 [คลิกที่นี่เพื่อดูวิดีโอสาธิตการทำงานบน YouTube](https://youtu.be/ylPN1qb6dwM)
-
-
-
----
 
 
 👨‍💻 ผู้จัดทำ

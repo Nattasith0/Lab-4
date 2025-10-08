@@ -92,11 +92,3 @@ const j = pm.response.json();
 pm.test("มีฟิลด์ data หรือ endpoints", () => j.data || j.endpoints);
 
 ---
-
-Evidence 
-
-assets/screenshots/http-root.png
-
-assets/screenshots/http-students.png
-
-assets/screenshots/express-stats.png

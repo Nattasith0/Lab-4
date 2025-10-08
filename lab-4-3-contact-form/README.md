@@ -106,17 +106,10 @@ GET	/api/docs	เอกสาร API ทั้งหมด
 ✅ script.js	เพิ่ม realtime validation, feedback submit, API test
 ✅ server.js	เชื่อมต่อ route และสร้าง /api/status
 
+
 ---
 
-
-## 📸 ภาพรวมการทำงาน
-<p align="center">
-  ![alt text](./public/images/100.png)
-  ![alt text](./public/images/200.png)
-</p>
-
 ## 🎥 วิดีโอสาธิตการทำงาน
-
 
 https://youtu.be/ylPN1qb6dwM
 

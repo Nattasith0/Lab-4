@@ -122,7 +122,7 @@ GET	/api/docs	เอกสาร API ทั้งหมด
 
 คลิกที่ภาพด้านล่างเพื่อดูวิดีโอสาธิตบน YouTube 👇
 
-[![Watch the video](https://img.youtube.com/vi/ylPN1qb6dwM/maxresdefault.jpg)](https://youtu.be/ylPN1qb6dwM)
+https://youtu.be/ylPN1qb6dwM
 
 
 ---

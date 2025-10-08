@@ -139,14 +139,14 @@ Food API นี้พร้อมสำหรับการทดสอบใ�
 <h3>📸 ภาพรวมการทำงาน</h3>
 
 <p align="center">
-  <img src="./public/image/1.png" width="300">
-  <img src="./public/image/2.png" width="300">
-  <img src="./public/image/3.png" width="300">
-  <img src="./public/image/4.png" width="300">
-  <img src="./public/image/5.png" width="300">
-  <img src="./public/image/6.png" width="300">
-  <img src="./public/image/7.png" width="300">
-  <img src="./public/image/8.png" width="300">
-  <img src="./public/image/9.png" width="300">
-  <img src="./public/image/10.png" width="300">
+  <img src="/image/1.png" width="300">
+  <img src="/image/2.png" width="300">
+  <img src="/image/3.png" width="300">
+  <img src="/image/4.png" width="300">
+  <img src="/image/5.png" width="300">
+  <img src="/image/6.png" width="300">
+  <img src="/image/7.png" width="300">
+  <img src="/image/8.png" width="300">
+  <img src="/image/9.png" width="300">
+  <img src="/image/10.png" width="300">
 </p>

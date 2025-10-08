@@ -120,9 +120,8 @@ GET	/api/docs	เอกสาร API ทั้งหมด
 
 🎥 วิดีโอสาธิตการทำงาน
 
-คลิกที่ภาพด้านล่างเพื่อดูวิดีโอสาธิตบน YouTube 👇
+🎥 [คลิกที่นี่เพื่อดูวิดีโอสาธิตการทำงานบน YouTube](https://youtu.be/ylPN1qb6dwM)
 
-https://youtu.be/ylPN1qb6dwM
 
 
 ---

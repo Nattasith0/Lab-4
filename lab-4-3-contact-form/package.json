@@ -1,0 +1,19 @@
+{
+  "name": "lab-4-3-contact-form",
+  "version": "1.0.0",
+  "description": "Contact Form API with file storage and validation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "clean": "node scripts/clean-data.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

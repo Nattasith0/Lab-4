@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form API Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📞 Contact Form API Demo</h1>
+            <p>ทดสอบการส่งข้อมูลผ่าน API</p>
+        </header>
+
+        <div class="forms-container">
+            <!-- Contact Form -->
+            <section class="form-section">
+                <h2>ฟอร์มติดต่อเรา</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">ชื่อ-นามสกุล *</label>
+                        <input type="text" id="name" name="name" required>
+                        <div class="error" id="nameError"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">อีเมล *</label>
+                        <input type="email" id="email" name="email" required>
+                        <div class="error" id="emailError"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">เบอร์โทรศัพท์</label>
+                        <input type="tel" id="phone" name="phone">
+                        <div class="error" id="phoneError"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company">บริษัท/องค์กร</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">หัวเรื่อง *</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <div class="error" id="subjectError"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">ข้อความ *</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <div class="error" id="messageError"></div>
+                    </div>
+
+                    <button type="submit" id="contactSubmit">ส่งข้อความ</button>
+                </form>
+            </section>
+
+            <!-- Feedback Form -->
+            <section class="form-section">
+                <h2>ให้คะแนนและความคิดเห็น</h2>
+                <form id="feedbackForm">
+                    <div class="form-group">
+                        <label for="rating">คะแนน (1-5) *</label>
+                        <div class="rating-container">
+                            <input type="range" id="rating" name="rating" min="1" max="5" value="3">
+                            <span id="ratingValue">3</span> ⭐
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comment">ความคิดเห็น *</label>
+                        <textarea id="comment" name="comment" rows="3" required></textarea>
+                        <div class="error" id="commentError"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="feedbackEmail">อีเมล (ไม่บังคับ)</label>
+                        <input type="email" id="feedbackEmail" name="email">
+                    </div>
+
+                    <button type="submit" id="feedbackSubmit">ส่งความคิดเห็น</button>
+                </form>
+            </section>
+        </div>
+
+        <!-- Status Messages -->
+        <div id="statusMessages"></div>
+
+        <!-- API Testing Section -->
+        <section class="api-section">
+            <h2>ทดสอบ API Endpoints</h2>
+            <div class="api-buttons">
+                <button onclick="loadContacts()">📋 ดูข้อมูลติดต่อ</button>
+                <button onclick="loadFeedbackStats()">📊 สถิติความคิดเห็น</button>
+                <button onclick="loadAPIStatus()">⚡ สถานะ API</button>
+                <button onclick="loadAPIDocs()">📖 เอกสาร API</button>
+            </div>
+            <div id="apiResults"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "lab-4-1-basic-server",
+  "version": "1.0.0",
+  "description": "เปรียบเทียบ HTTP Server vs Express Server",
+  "main": "http-server.js",
+  "scripts": {
+    "start:http": "node http-server.js",
+    "start:express": "node express-server.js",
+    "dev:http": "nodemon http-server.js",
+    "dev:express": "nodemon express-server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
